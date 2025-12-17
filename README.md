@@ -27,15 +27,15 @@ Bu proje, endüstriyel üretim hatları üzerinde hareket eden ürünleri gerçe
 
 Hat-Urun-Tanimlama/
 ├── models/
-│   ├── best.pt           # Özel eğitilmiş YOLOv8 modeliniz
-│   └── yolov8n.pt        # Temel YOLOv8 nano modeli
+│   ├── best.pt            # Özel eğitilmiş YOLOv8 modeliniz
+│   └── yolov8n.pt         # Temel YOLOv8 nano modeli
 ├── data/
-│   └── video.mp4         # Test videoları
+│   └── video.mp4          # Test videoları
 ├── assets/
-│   └── dino.png          # Kurumsal logo / Arayüz görseli
-├── main.py               # Ana uygulama kodu
-├── requirements.txt      # Gerekli kütüphaneler listesi
-└── README.md             # Proje dokümantasyonu
+│   └── dino.png           # Kurumsal logo / Arayüz görseli
+├── main.py                # Ana uygulama kodu
+├── requirements.txt       # Gerekli kütüphaneler listesi
+└── README.md              # Proje dokümantasyonu
 
 ⚙️ Kurulum 
 
