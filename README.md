@@ -24,7 +24,7 @@ Bu proje, endüstriyel üretim hatları üzerinde hareket eden ürünleri gerçe
 ![licensed-image](https://github.com/user-attachments/assets/a9d9d8a7-2c8a-489f-a2f2-cb3256c66aa7)
 
 📂 Proje Yapısı
-
+```text
 Hat-Urun-Tanimlama/
 ├── models/
 │   ├── best.pt            # Özel eğitilmiş YOLOv8 modeliniz
@@ -36,7 +36,7 @@ Hat-Urun-Tanimlama/
 ├── main.py                # Ana uygulama kodu
 ├── requirements.txt       # Gerekli kütüphaneler listesi
 └── README.md              # Proje dokümantasyonu
-
+```
 ⚙️ Kurulum 
 
 1. Bu depoyu klonlayın:
