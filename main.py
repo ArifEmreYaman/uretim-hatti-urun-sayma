@@ -345,10 +345,10 @@ class VideoApp(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    video1_path="data/video.mp4", 
-    video2_path="data/video.mp4", 
-    dino_path="assets/dino.png", 
-    model_path="models/best.pt"
+    video1_path = "data/video.mp4"
+    video2_path = "data/video.mp4"
+    dino_path = "assets/dino.png"
+    model_path = "model/best.pt"
     win = VideoApp(video1_path, video2_path, dino_path, model_path)
     win.show()
     sys.exit(app.exec_())

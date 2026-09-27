@@ -26,9 +26,8 @@ Bu proje, endüstriyel üretim hatları üzerinde hareket eden ürünleri gerçe
 📂 Proje Yapısı
 ```text
 Hat-Urun-Tanimlama/
-├── models/
-│   ├── best.pt            # Özel eğitilmiş YOLOv8 modeliniz
-│   └── yolov8n.pt         # Temel YOLOv8 nano modeli
+├── model/
+│   └── best.pt            # Özel eğitilmiş YOLOv8 modeliniz
 ├── data/
 │   └── video.mp4          # Test videoları
 ├── assets/
@@ -40,11 +39,15 @@ Hat-Urun-Tanimlama/
 ⚙️ Kurulum 
 
 1. Bu depoyu klonlayın:
-   "git clone https://github.com/kullaniciadin/uretim-hatti-urun-sayma.git
-cd uretim-hatti-urun-sayma"
+   ```bash
+   git clone https://github.com/ArifEmreYaman/uretim-hatti-urun-sayma.git
+   cd uretim-hatti-urun-sayma
+   ```
 
 2. Gerekli kütüphaneleri yükleyin:
-   "pip install -r requirements.txt"
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 
 🖥️ Kullanım
